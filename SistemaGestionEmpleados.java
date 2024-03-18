@@ -1,7 +1,15 @@
 import java.util.Scanner;
+/**
+ * Clase principal que gestiona el sistema de empleados.
+ */
 
 public class SistemaGestionEmpleados {
-
+    /**
+     * Método principal que crea una instancia de Empleados,
+     * añade empleados, aumenta el salario y muestra la lista de empleados.
+     * 
+     * @param args Los argumentos de la línea de comandos (no se utilizan).
+     */
 
     public static void main(String[] args) {
         Empleados empleados = new Empleados(3);
